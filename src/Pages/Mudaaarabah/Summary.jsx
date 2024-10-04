@@ -29,9 +29,9 @@ const Summary = () => {
                 
                 <div className="button_links">
 
-                    <a href="#" className='learn_more shadow'>
+                    <Link to="#" className='learn_more shadow'>
                         Learn More
-                    </a>
+                    </Link>
                     
                     <Link to="pay-stack" className='learn_more'>
                         Join Now

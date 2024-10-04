@@ -56,21 +56,27 @@ div.button_links{
     width: 50%;
     margin: 80px auto;
     text-align: center;
+    /* height: 100px; */
 }
 
 div.button_links a{
     padding:15px 30px;
-    margin: 30px 10px;
+    margin: 10px;
     border: none;
     border-radius: 3px;
-    font-weight: 800;
+    font-weight: 700;
     text-decoration: none;
 
 }
 
 div.button_links :first-child{
     color: #003EB8;
+    text-decoration: none;
+    /* background: transparent; */
 
+}
+div.button_links a{
+    background-color: transparent;
 }
 
 div.button_links :last-child{
@@ -299,13 +305,14 @@ button{
         font-size: 14px;
     }
     .button_links {
-        width: 400px !important;
+        width: 100% !important;
+        /* border: 1px solid red; */
     }
 
     .button_links a{
         font-size: small;
         padding: 10px !important;
-        margin: 0px 70px 0px 0px !important;
+        /* margin: 0px 70px 0px 0px !important; */
     }
 
     .invest_row2, .invest_row3{
