@@ -18,10 +18,10 @@ header div.header_col1{
     display: flex;
     align-items: center;
 }
-header h4{
+/* header h4{
     font-size: 20px;
     color: #fff;
-}
+} */
 
 header a{
     margin:0 20px;
@@ -34,9 +34,7 @@ header a{
     background-color: #001F5C;
     color: #fff;
 }
-.navbar-toggler{
-    opacity: 0.5;
-}
+
 .toggle_icon{
     color: #fff !important;
 } 
@@ -281,6 +279,11 @@ button{
     }
     header h4:nth-of-type(1){
         display: none;
+    }
+
+    .offcanvas-header h5{
+        font-size: 20px;
+        margin-left: 20px;
     }
     header{
         padding:0 20px !important;

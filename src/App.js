@@ -14,6 +14,7 @@ import TotalReach from './Halal/TotalReach';
 import TotalReachDetails from './Halal/TotalReachDetails';
 import Profile from './SETTINGS/Profile';
 import PayGateway from './Pages/FutureWealth/PayGateway';
+import ProfileTwo from './SETTINGS/ProfileTwo';
 // import ProfileTwo from './SETTINGS/ProfileTwo';
 
 
@@ -27,6 +28,7 @@ function App() {
       <Route path='/total-reach' element={<TotalReach/>}/>
       <Route path='/totalreach_details' element={<TotalReachDetails/>}/>
       <Route path='/setting' element={<Profile/>}/>
+      <Route path='/profileTwo' element={<ProfileTwo />}/>
       <Route path='/pay-stack' element={<PayStack/>}/>
       <Route path='pay_stack' element={<PayGateway/>}/>
       <Route path='/mudaarabah' element={<Investment/>} />

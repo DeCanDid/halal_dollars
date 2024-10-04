@@ -1,6 +1,9 @@
-import React from 'react'
+import React from 'react';
 import man from '../imagefolder/man-with-cap.png'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faEdit } from '@fortawesome/free-solid-svg-icons';
+
 const Profile = () => {
 const navigate=useNavigate()
 
@@ -14,7 +17,12 @@ const editButton=()=>{
     <div className="formProfile">
     <div className="row1">
 
-        <h3>Profile    <i class="fa-regular fa-pen-to-square" onClick={editButton}></i></h3>  
+        <h3>Profile 
+          <Link to='/profileTwo'>
+        <FontAwesomeIcon icon={faEdit} onClick={editButton}/>
+        </Link>
+
+          </h3>  
         <img src={man} alt=""  />
        
         <div className='edit'> <i class="fa-solid fa-camera"></i> </div> 
