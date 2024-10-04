@@ -1,0 +1,256 @@
+div.edit i{
+    background-color: #f2f4f7;
+    padding: 5px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 22px;
+    left: 48px;
+}
+input{
+    outline: none;
+}
+
+
+
+
+@media (max-width:1200px ) {
+    *{
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+
+    section.wrapper{
+        width: 80%;
+        margin: 0 auto;
+        color: #808A97
+    }
+    div.field-one{
+        border: 1px solid rgb(203, 199, 199);
+        margin: 30px 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    
+    div.field-one h2, div.field-two h2{
+        text-align: center;
+        padding: 20px 0;
+        color: #000;
+    }
+    div.field-one p:first-of-type, div.field-two p:first-of-type{
+       padding: 10px  20px;
+    }
+    div.field-one p{
+        width: 88%;
+        padding: 0 20px;
+    }
+  
+    p.What, p.major{
+        margin: 10px 0;
+    }
+    div.subscribe{
+        text-align: center;
+    }
+    div.field-one button, div.field-two button{
+        background-color: blue;
+        color: #fff;
+        padding: 10px;
+        margin: 20px 0;
+        border-radius: 6px;
+        border: none;
+    }
+    
+    div.field-two{
+        border: 1px solid rgb(203, 199, 199);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    div.field-two p{
+        padding: 0 20px;
+        width: 85%;
+    }
+    div.field-two p:last-of-type{
+        padding: 15px 20px;
+    }
+   
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    section.details{
+        width: 80%;
+        margin: 20px auto;
+        
+    }
+
+    section.details h2{
+        text-align: center;
+    }
+    section.details form h3{
+        padding: 10px 0;
+    }
+    div.goHigh{
+        border: 1px solid rgb(203, 199, 199);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 40px 20px;
+        margin: 40px 0;
+    }
+    div.canva{
+        border: 1px solid rgb(203, 199, 199);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 40px 20px;
+    }
+  
+    div.goHigh form input {
+        border: none;
+        border-bottom: 0.5px solid rgb(234, 232, 232);
+        padding: 10px 2px;
+        width: 90%;
+        color: #000;
+        margin: 5px 0;
+    }
+   
+    div.canva form input {
+        border: none;
+        border-bottom: 0.5px solid rgb(227, 224, 224);
+        padding: 10px 2px;
+        width: 90%;
+        color: #000;
+        margin: 5px 0;
+    }
+        /* div.canva form label{
+       line-height: 0.8;
+       
+    } */
+
+
+
+
+
+
+
+
+
+
+
+    /* SETTINGS */
+    div.profile form input {
+        border: none;
+        border-bottom: 1px solid rgb(165, 163, 163);
+        padding: 10px 2px;
+        width: 100%;
+        color: #000;
+        margin: 10px 0;
+    }
+    div.row1 h3{
+        margin: 10px 0;
+    }
+    div.row1{
+        text-align: center;
+    }
+    div.formProfile, div.kin, div.refer{
+        width: 80%;
+        margin: 50px auto;
+        padding: 40px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+    div.profileTwo form input {
+       outline: none;
+        padding: 10px 2px;
+        width: 100%;
+        color: #000;
+        margin: 10px 0;
+    }
+    div.row1 h3{
+        margin: 10px 0;
+    }
+    
+    div.edit i{
+        background-color: #f2f4f7;
+        padding: 5px;
+        border-radius: 20px;
+        position: relative;
+        bottom: 22px;
+        left: 28px;
+    }
+    div.row1{
+        text-align: center;
+    }
+
+    div.profileTwo{
+        /* width: 80%;
+        margin: 50px auto;
+        padding: 40px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    }
+
+
+
+
+    div.referrer{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    div.referH3, div.kin h3{
+        text-align: center;
+    }
+    div.profileTwoButton{
+        text-align: center;
+    }
+    div.profileTwoButton :last-of-type{
+        background-color: blue;
+        color: #fff;
+    }
+    div.profileTwoButton :first-of-type{
+        background-color: #fff;
+        color: #000;
+        box-shadow: 2px 0 10px rgba(199, 193, 242, 0.1); 
+    }
+    div.profileTwoButton button{
+        padding: 10px;
+        margin: 0 10px;
+        border: none;
+        color: #fff;
+        border-radius: 5px;
+    }
+    div.profileTwo select {
+        width: 100%;
+        padding: 10px 0;
+        outline: none;
+    }
+
+
+
+
+
+    
+   
+}

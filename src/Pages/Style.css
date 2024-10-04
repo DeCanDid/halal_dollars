@@ -1,0 +1,393 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001F5C;
+    color: #fff !important;
+    padding: 20px 30px;
+    position: sticky;
+    align-items: center;
+    top: 0;
+}
+header img{
+    width: 100px;
+}
+
+
+header div.header_col1{
+    display: flex;
+    align-items: center;
+}
+header h4{
+    font-size: 20px;
+    color: #fff;
+}
+
+header a{
+    margin:0 20px;
+    color: #fff !important;
+    text-decoration: none;
+    font-size: medium;
+}
+
+#offcanvasNavbar{
+    background-color: #001F5C;
+    color: #fff;
+}
+.navbar-toggler{
+    opacity: 0.5;
+}
+.toggle_icon{
+    color: #fff !important;
+} 
+
+
+/* section1 */
+div.summary_wrapper, .investment_wrapper{
+    width: 90%;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+div.summary_wrapper h2, p{
+    margin: 20px;
+    line-height: 30px;
+}
+
+div.button_links{
+    width: 50%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+div.button_links a{
+    padding:15px 30px;
+    margin: 30px 10px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 800;
+    text-decoration: none;
+
+}
+
+div.button_links :first-child{
+    color: #003EB8;
+
+}
+
+div.button_links :last-child{
+    background-color: #003EB8;
+    color: #fff;
+
+}
+
+/* section 2 */
+.invest_row1{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.invest_row1 div:nth-of-type(1) p{
+    color: grey;
+}
+
+.invest_row1 div:nth-of-type(1) h2{
+    margin-left: 20px;
+}
+
+.invest_row1 div:nth-of-type(2) button,
+.invest_row2 div:nth-of-type(2) button,
+.payment_method button, .payment_withdraw 
+button{
+    padding: 10px 25px;
+    background-color:#003EB8;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+
+}
+.invest_row1 button a,
+.invest_row2 div:nth-of-type(2) a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.invest_row2, .addToInvestment,
+.payment_method{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.investment_wrapper, 
+.invest_options, .payment_options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.investment_wrapper div{
+    width: 40%;
+    margin: 25px;
+    padding: 20px;
+    background-color: #FCFAFF;
+    border-radius: 7px;
+}
+
+.investment_wrapper h5{
+    font-weight: 600;
+}
+
+.invest_row2 div:nth-of-type(2){
+    text-align: center;
+}
+
+.invest_row2 div:nth-of-type(2) button{
+    padding: 15px 25px;
+}
+
+.invest_row3, .amount_row,
+.payment_withdraw,.withdraw_amount{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.invest_row3 div:nth-of-type(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 90%; */
+    padding: 0 100px;
+    margin: auto;
+    border-bottom: 1px solid lightgray;
+}
+
+
+ .table{
+    margin: auto;
+}
+
+ th, td {
+    border: none !important;
+  }
+
+
+  table tr li{
+    background-color: #ECFDF3 !important;
+    width: 50%;
+    color: green !important;
+    padding: 0 !important;
+    border-radius: 20px;
+    margin: auto;
+  }
+
+  /* add to investment */
+
+  .invest_options div, 
+  .payment_options div{
+    width: 28%;
+    margin: 25px;
+    padding: 25px;
+    background-color: #FCFAFF;
+    border-radius: 7px;
+  }
+  .invest_options h4{
+    font-weight: bold;
+  }
+
+  .amount_row input{
+    padding: 5px 20px;
+    border-radius: 4px;
+    width: 300px;
+    margin-top: 5px;
+    border: 1px solid lightgrey;
+    outline: none;
+  }
+  .payment_options div label{
+    margin-left: 5px;
+  }
+
+  .payment_method .continue_button {
+    margin-left: 20px;
+  }
+
+  .continue_button{
+    margin-left: 22px;
+  }
+  .withdraw_button button{
+    padding: 10px 25px;
+    background-color:#003EB8;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+  }
+  .withdraw_button a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5px;
+  }
+  .investment_wrapper div:nth-of-type(2) h5{
+    margin-left: 25px !important;
+    text-align: start;
+  }
+
+  .search_form{
+    width: 90%;
+    margin: auto;
+  }
+  .search_payment, .duration{
+    border: 1px solid lightgrey;
+    padding: 5px;
+    width: 45%;
+    margin: 20px 0;
+    
+  }
+
+  .duration select{
+    border: 1px solid lightgrey;
+    padding: 5px;
+    width: 28%;
+    margin: 6px;
+    border-radius: 3px;
+    outline: none;
+    color:lightgray;
+  }
+  .duration button{
+    outline: none;
+    border: none;
+  }
+  
+
+  .search_payment input{
+    width: 90%;
+    outline: none;
+    border: none;
+  }
+
+  /* .search_payment,.duration{
+    width: 40%;
+    margin: 0 !important;
+  } */
+
+
+
+  /* media Query */
+  @media (max-width:1020px) {
+    .invest_options div, .payment_options div{
+        width: 45%;
+        margin: 10px;
+    }
+    header h4:nth-of-type(1){
+        display: none;
+    }
+    header{
+        padding:0 20px !important;
+    }
+  }
+
+  @media (max-width:765px) {
+    .summary_section h2{
+        font-size: larger;
+    }
+
+    .summary_section p{
+        font-size: 14px;
+    }
+    .button_links {
+        width: 400px !important;
+    }
+
+    .button_links a{
+        font-size: small;
+        padding: 10px !important;
+        margin: 0px 70px 0px 0px !important;
+    }
+
+    .invest_row2, .invest_row3{
+        padding: 0 !important;
+    }
+    .invest_row1 h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .invest_row1 p{
+        font-size: 14px;
+    }
+    
+    .invest_row1 button{
+        width: 100px;
+        font-size: 12px;
+        padding: 8px !important;
+    }
+
+    .investment_wrapper{
+        width: 100%;
+        padding: 0;
+    }
+    .investment_wrapper div, 
+    .add_investment div{
+        width: 40%;
+        margin: 10px;
+    }
+
+    .investment_wrapper h6{
+        font-size: 5px;
+    }
+    .investment_wrapper h6, h5{
+        font-size: 12px;
+    }
+    .add_investment{
+        padding: 10px 0;
+    }
+    .add_investment button{
+        font-size: small;
+        padding: 5px 10px !important;
+    }
+    .payment_history h4{
+        font-size: 16px;
+    }
+
+    .payment_history{
+        padding: 10px !important;
+        font-size: small;
+    }
+
+    table{
+        font-size: small !important;
+    }
+    table li{
+        width: 100% !important;
+    }
+
+    .invest_options, .payment_method{
+        padding:10px 5px !important;
+    }
+    .invest_options div{
+        width: 30%;
+        margin: 5px;
+        padding: 10px;
+    }
+    .invest_options h4{
+        font-size: small;
+    }
+    .invest_options h6{
+        font-size: 8px;
+    }
+
+    .payment_options div{
+        width: 100%;
+        font-size: 12px;
+        padding: 10px;
+    }
+
+
+  }
+
+  @media (max-width:450px) {
+    table{
+        font-size: 8px !important;
+    }
+  }

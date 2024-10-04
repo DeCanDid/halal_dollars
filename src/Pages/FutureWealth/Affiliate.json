@@ -1,0 +1,47 @@
+[
+    {
+        "investor": ["./images/ibrahim.png", "Ibrahim Hussien", "08102345678"],
+        "profits" : "₦100,000",
+        "incubation" :"₦200,000"
+    },
+    {
+        "investor": ["./images/khadija.png", "Khadeeja Odun", "08102345678"],
+        "profits" : "₦100,000",
+        "incubation" :"₦200,000"
+    },
+    {
+        "investor": ["./images/yaqub.png", "Yaqub Ilyas", "08102345678"],
+        "profits" : "₦100,000",
+        "incubation" :"₦600,000"
+    },
+    {
+        "investor": ["./images/maaruf.png", "Maaruf Rasheed", "08102345678"],
+        "profits" : "₦500,000",
+        "incubation" :"₦700,000"
+    },
+    {
+        "investor": ["./images/maaruf.png", "Oyetunji Jamiu", "08102345678"],
+        "profits" : "₦400,000",
+        "incubation" :"₦100,000"
+    },
+    {
+        "investor": ["./images/yaqub.png", "Adeniyi Fatai", "08102345678"],
+        "profits" : "₦50,000",
+        "incubation" :"₦500,000"
+    },
+    {
+        "investor": ["./images/maaruf.png", "Taofeeq Osaige", "08102345678"],
+        "profits" : "₦100,000",
+        "incubation" :"₦250,000"
+    },
+    {
+        "investor": ["./images/kkk.png", "Yoonus Umar", "08102345678"],
+        "profits" : "₦100,000",
+        "incubation" :"₦250,000"
+    },
+    {
+        "investor": ["./images/yaqub.png", "Ahmed Abdullah", "08102345678"],
+        "profits" : "₦150,000",
+        "incubation" :"₦300,000"
+    }
+]

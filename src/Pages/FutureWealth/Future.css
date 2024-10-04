@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,600;1,14..32,600&display=swap');
+button[type="submit"]{
+  display: flex; 
+  background-color: #002F8A;
+  padding: 10px;
+  color: #fff;
+}
+@media (max-width:800px){
+  nav{
+    background-color: #F2F4F7;
+  }
+  div.logged{
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  div.FullHistory {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Inter';
+    /* background-color: #027A48; */
+  }
+  label{
+    color: #98A2B3;
+  }
+  div.accumulated h5{
+    color: #98A2B3;
+    padding: 10px;
+  }
+  div.accumulated, div.Subsidiaries, div.Payment{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.091);
+  }
+  div.accumulated div{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  div.popwrapper{
+    position: fixed;
+    font-family: 'Inter';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5em;
+    /* text-align: left; */
+  }
+  div.accumulated button{
+    border: 2px solid #F4EBFF;
+    display: flex;
+    width: 32%;
+    justify-content: space-between;
+    /* font-size: 0.7em; */
+    /* padding: 20px 10px; */
+    align-items: center;
+  }
+  button[type="submit"]>img{
+    padding: 0 5px;
+  }
+  button[type="submit"], div.accumulated button,div.Subsidiaries button, tr td:nth-child(4){
+    display: flex;
+    align-items: center;
+    background-color: #002F8A;
+    padding: 10px;
+    color: #fff;
+    justify-content: center;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 auto;
+    width: 40%;
+    /* width: 80%; */
+  }
+  input{
+    padding: 5px;
+    outline: none;
+    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.091);
+    border: 0;
+    border-radius: 2px;
+  }
+  div.FullHistory>form{
+    /* background-color: #027A48; */
+  background-color: #FCFAFF;
+    padding: 30px 10px;
+    width: 100%;
+  }
+  div.FullHistory>form button{
+    padding: 10px 20px;
+    border: 2px solid #F4EBFF;
+    /* background-color: #1D2939; */
+  }
+  div.FullHistory>form div:nth-child(2) select{
+    padding: 5px;
+  }
+  div.FullHistory>form div:nth-child(2){
+    display: grid;
+    width: 100%;
+    padding: 10px;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    /* color: #002F8A; */
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  div.FullHistory>form div:nth-child(1){
+    width: 95%;
+  }
+  div.FullHistory>form div:nth-child(1) input{
+    padding: 10px;
+  }
+  div.FullHistory>form div:nth-child(1) img{
+    position: relative;
+    top: -2.5em;
+    right: -8em;
+  }
+  div.Subsidiaries{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    /* width: 95%; */
+    gap: 2em;
+  }
+  div.Subsidiaries img{
+    padding: 0 5px;
+  }
+  div.Subsidiaries button{
+    grid-column: 1/3;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid #F4EBFF;
+
+  }
+  div.Subsidiaries div{
+    background-color: #FCFAFF;
+    padding: 15px 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 15px;
+
+  }
+  div.Subsidiaries div p{
+    padding: 0 0 20px;
+    font-size: 10px;
+  }
+  div.Subsidiaries div span{
+    line-height: 17.89px;
+    padding: 10px 0;
+  }
+  div.Subsidiaries div h3,div.Subsidiaries div p{
+    color: #98A2B3;
+  }
+  tr td{
+    text-align: center;
+    padding: 5px ;
+    font-size: 8px;
+    color: #475467;
+  }
+  tr td:nth-child(4) img{
+    padding: 0 5px;
+  }
+  tr td:nth-child(4){
+    background-color: #ECFDF3;
+    color: #027A48;
+    border-radius: 20px;
+    padding: 5px 5px;
+    width: 90%;
+  }
+  table{
+    border-top: 1px solid #E4E7EC;
+    padding: 20px 0;
+    width: 100%;
+  }
+  thead{
+    font-size: 10px;
+    color: #1D2939;
+  }
+  div.FullHistory>div.Payment table{
+    width: 100%;
+  }
+  form{
+    background-color: #fff;
+    width: 90%;
+    padding: 20px 30px;
+    /* height: 40%; */
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+  div.Payment div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding: 10px 0;
+    /* border: 1px solid #0000005f; */
+    margin: 0 auto;
+  }
+
+  div.Payment div h1,div.Payment div a{
+    text-decoration: none;  
+    font-size: 9.14px;
+  }
+  div.Payment div a img{
+    padding: 0 5px;
+  }
+  div.Payment div a{
+    display: flex;
+    align-items: center;
+    color: #4F46E5;
+  }
+  div.FullHistory>div.Payment{
+    width: 100%;
+  }
+  div.FullHistory>div.Payment table{
+    /* width: 100%; */
+    border-top: 1px solid #E4E7EC;
+  }
+  /* div.popwrapper>button{
+    padding: 10px;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border: 0;
+    font-size: 1.5em;
+    background-color: #002F8A;
+    color: #fff;
+    text-align: center;
+  } */
+  div.popInner{
+    width: 80%;
+  }
+  form div select{
+    color: #98A2B3;
+    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.091);
+    border: 0;
+    border-radius: 5px;
+    /* border: 1px solid #D0D5DD; */
+    padding: 10px;
+    outline: none;
+  }
+  form div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.5em;
+  }
+  div.futurewrapper{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 30px;
+    width: 60%;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Inter';
+  }
+  div.navfuture{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 0 auto;
+    /* background-color: blanchedalmond; */
+  }
+  div.navfuture button{
+    border: 3px solid #F9F5FF;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  div.navfuture button:first-child{
+    color: #002F8A;
+    background-color: #F9F5FF;
+  }
+  div.navfuture button:last-child{
+    color: #fff;
+    background-color: #002F8A;
+  }
+  div.futurewrapper p{
+    /* font-size: 14px; */
+    text-align: left;
+    padding: 20px 0;
+    font-weight: 400;
+    color: #475467;
+    line-height: 22px;
+  }
+  div.futurewrapper h3{
+    text-align: center;
+    line-height: 18.28px;
+    padding: 10px 0;
+    font-weight: 600;
+    font-family: 'inter';
+  }
+}
+@media (max-width:600px){
+  div.futurewrapper p{
+    /* font-size: 14px; */
+    font-weight: 400;
+    color: #475467;
+    line-height: 22px;
+  }
+  div.futurewrapper{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 30px;
+    width: 80%;
+
+    border-radius: 10px;
+
+  }
+  div.futurewrapper h3{
+    text-align: center;
+    line-height: 18.28px;
+    font-weight: 600;
+    padding: 10px 0;
+    font-family: 'inter';
+  }
+  button[type="submit"]{
+    width: 80%;
+  }
+}
+@media (max-width:500px){
+  div.futurewrapper p{
+    /* font-size: 14px; */
+    line-height: 22px;
+  }
+  div.futurewrapper{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 30px;
+    width: 90%;
+    border-radius: 10px;
+
+  }
+  div.futurewrapper h3{
+    text-align: center;
+    line-height: 18.28px;
+    font-weight: 600;
+    padding: 10px 0;
+    font-family: 'inter';
+  }
+  div.navfuture{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+    /* background-color: blanchedalmond; */
+  }
+  button[type="submit"]{
+    width: 90%;
+  }
+}
+@media (max-width:400px){
+  div.futurewrapper p{
+    /* font-size: 14px; */
+    line-height: 22px;
+  }
+  div.futurewrapper{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 30px;
+    width: 95%;
+    border-radius: 10px;
+
+  }
+  div.futurewrapper h3{
+    text-align: center;
+    line-height: 18.28px;
+    font-weight: 600;
+    font-size: 1em;
+    padding: 10px 0;
+    font-family: 'inter';
+  }
+  div.accumulated button{
+    width: 40%;
+  }
+  div.accumulated h2{
+    font-size: 1.2em;
+  }
+  div.Subsidiaries button{
+    width: 90%;
+  }
+  div.Subsidiaries div h3{
+    font-size: 0.8em;
+  }
+  form div select{
+    padding: 5px;
+    width: 100%;
+    /* border: 2px solid #002F8A; */
+  }
+  form div{
+    width: 80%;
+    margin: 0 auto;
+  }
+  form label{
+    font-size: 0.8em;
+    /* color: #002F8A; */
+  }
+  button[type="submit"]{
+    width: 100%;
+  }
+  /* div.Subsidiaries div h3{
+    font-size: 0.7em;
+  } */
+}
+@media (max-width:300px){
+  div.futurewrapper{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+
+  }
+  form{
+    padding: 20px 10px;
+
+  }
+  form div select{
+    padding: 5px;
+    width: 100%;
+    /* border: 2px solid #002F8A; */
+  }
+  form div{
+    width: 80%;
+    margin: 0 auto;
+  }
+  div.popInner{
+    width: 95%;
+  }
+  form label{
+    font-size: 0.7em;
+    /* color: #002F8A; */
+  }
+  /* div.FullHistory>div.Payment table{
+    background-color: ;
+  } */
+  div.FullHistory {
+    width: 80%;
+  }
+  div.Subsidiaries div {
+    padding: 0;
+    width: 100%;
+  }
+  div.FullHistory>div.Payment{
+    background-color: #002F8A;
+    width: 120%;
+  }
+  div.FullHistory>div.Payment table{
+    padding: 0;
+    width: 90%;
+  }
+  div.Subsidiaries div h3{
+    font-size: 0.6em;
+  }
+  div.FullHistory>form div{
+    width: 100%;
+    background-color: #1D2939;
+  }
+  div.accumulated button{
+    font-size: 0.7em;
+    width: 52%;
+  }
+  div.Subsidiaries button{
+    font-size: 0.7em;
+    width: 90%;
+  }
+  div.accumulated button img{
+    padding: 0 4px;
+  }
+  div.accumulated h2{
+    font-size: 0.8em;
+  }
+
+  div.futurewrapper p{
+    /* font-size: 14px; */
+    line-height: 22px;
+  }
+  div.futurewrapper h3{
+    text-align: center;
+    line-height: 18.28px;
+    padding: 10px 0;
+    font-size: 0.8em;
+    font-weight: 600;
+    font-family: 'inter';
+  }
+  button[type="submit"]{
+    width: 100%;
+  }
+ 
+  /* div.FullHistory>div.Payment table tr td{
+    font-size: 0.4em;
+  } */
+  div.navfuture{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    /* background-color: blanchedalmond; */
+  }
+}
