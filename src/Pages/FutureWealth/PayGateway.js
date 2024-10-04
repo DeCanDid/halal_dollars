@@ -10,7 +10,7 @@ const PayGateway = () => {
             <PayStack  />
         </Link> */}
 
-        <div className='mx-auto w-50 text-center my-5'>
+        <div className='mx-auto w-75 text-center my-5'>
             <Link to='/futureLogged'>
             
             <img src={payStack_logo} alt="" 

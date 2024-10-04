@@ -7,8 +7,8 @@ const AddInvestment = () => {
 
         <div className="addToInvestment shadow rounded-3">
 
-            <div className='text-center py-5'>
-                <h5>Amount to Add</h5>
+            <div className='text-center py-3'>
+                <h5 className='fs-4'>Amount to Add</h5>
             </div>
 
             <div className='invest_options px-5'>

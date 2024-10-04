@@ -301,6 +301,10 @@ button{
         font-size: larger;
     }
 
+    header img{
+       width: 70px; 
+    }
+
     .summary_section p{
         font-size: 14px;
     }
@@ -337,7 +341,12 @@ button{
         width: 100%;
         padding: 0;
     }
-    .investment_wrapper div, 
+    .investment_wrapper div{
+        width: 90%;
+        margin: 10px auto;
+
+    }
+   
     .add_investment div{
         width: 40%;
         margin: 10px;
@@ -376,21 +385,18 @@ button{
         padding:10px 5px !important;
     }
     .invest_options div{
-        width: 30%;
-        margin: 5px;
+        width: 90%;
+        margin: 5px auto;
         padding: 10px;
-    }
-    .invest_options h4{
-        font-size: small;
-    }
-    .invest_options h6{
-        font-size: 8px;
     }
 
     .payment_options div{
         width: 100%;
         font-size: 12px;
         padding: 10px;
+    }
+    .withdraw_amount input{
+        width: 97%;
     }
 
 
