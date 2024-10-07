@@ -6,7 +6,7 @@ const PayStack = () => {
   return (
     <div>
 
-        <div className='mx-auto w-75 text-center my-5'>
+        <div className='mx-auto w-75 text-center my-5 payStack_gateway'>
             <Link to='/mudaarabah'>
             
             <img src={payStack_logo} alt="" 

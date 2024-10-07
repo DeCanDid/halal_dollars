@@ -389,10 +389,6 @@ button{
         font-size: 12px;
         padding: 10px;
     }
-    .withdraw_amount input{
-        /* width: 97%; */
-    }
-
 
   }
 
@@ -414,5 +410,9 @@ button{
   @media (max-width:430px) {
     .payment_options input[type='radio']{
         display: block;
+    }
+
+    .payStack_gateway img{
+        width: 100% !important;
     }
   }
