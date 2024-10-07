@@ -54,7 +54,7 @@ const Investment = ({ balance, withdraw }) => {
 
                 </div>
 
-                <div className='add_investment'>
+                <div className='add_investment text-center'>
                     <button>
                     <FontAwesomeIcon icon={faCoins}
                     style={{color:'#fff'}
