@@ -151,6 +151,7 @@ input{
     /* SETTINGS */
     div.profile form input {
         border: none;
+        outline: none;
         border-bottom: 1px solid rgb(165, 163, 163);
         padding: 10px 2px;
         width: 100%;
@@ -163,8 +164,13 @@ input{
     div.row1{
         text-align: center;
     }
+
+    div.row1 a{
+        color: black !important;
+    }
     div.formProfile, div.kin, div.refer{
-        width: 80%;
+
+        width: 100%;
         margin: 50px auto;
         padding: 40px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -252,5 +258,69 @@ input{
 
 
     
+   
+}
+@media (max-width:360px) {
+    /* div.formProfile, div.kin, div.refer{
+        width: 90%;
+        margin: 40px auto;
+        padding: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    div.profileTwo form input,div.profile form input  {
+         margin: 5px 0;
+     }
+     div.profileTwo form input,  div.profile form input {
+         margin: 4px 0;
+     } */
+}
+
+
+@media (max-width:450px){
+    section.wrapper{
+        width: 90%;
+        margin: 0 auto;
+        color: #808A97
+    }
+    div.field-one p:first-of-type, div.field-two p:first-of-type{
+        padding: 10px ;
+     }
+     div.field-one p,div.field-two p{
+         width: 92%;
+         padding: 0 10px;
+     }
+
+
+     
+    div.field-two p:last-of-type{
+        padding: 5px 10px;
+    }
+    div.goHigh form input {
+        border: none;
+        border-bottom: 0.5px solid rgb(234, 232, 232);
+        padding: 10px 2px;
+        width: 100%;
+        color: #000;
+        margin: 5px 0;
+    }
+   
+    div.canva form input {
+        border: none;
+        border-bottom: 0.5px solid rgb(227, 224, 224);
+        padding: 10px 2px;
+        width: 100%;
+        color: #000;
+        margin: 5px 0;
+    }
+
+    div.formProfile, div.kin, div.refer{
+        width: 90%;
+        margin: 40px auto;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    div.profileTwo form input,div.profile form input  {
+         margin: 5px 0;
+     }
    
 }

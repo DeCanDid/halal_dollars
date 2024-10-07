@@ -19,7 +19,7 @@ const editButton=()=>{
 
         <h3>Profile 
           <Link to='/profileTwo'>
-        <FontAwesomeIcon icon={faEdit} onClick={editButton}/>
+        <i class='fa-regular fa-pen-to-square' onClick={editButton}></i>
         </Link>
 
           </h3>  

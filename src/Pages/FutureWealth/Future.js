@@ -55,7 +55,7 @@ FutureWealth is designed to secure the future of our children, ensure the well-b
   show?<div className='popwrapper' onClick={closed}>
     {/* <button onClick={closed}>X</button> */}
     <div className='popInner' onClick={dontgo}>
-    <form onSubmit={formik.handleSubmit}>
+    <form className='future_form' onSubmit={formik.handleSubmit}>
     <div className='person'>
       <label>Who do you want to pay for?</label>
       <select name="selectField"
@@ -64,7 +64,7 @@ FutureWealth is designed to secure the future of our children, ensure the well-b
           {/* <option selected disabled>--select a person--</option> */}
         <option value="Adeolu Mubaaraq">Myself - Adeolu Mubaaraq</option>
         <option value="kola Adenuga">Kola Adenuga</option>
-        <option value="Femi omotayo">Femi omotayo</option>
+        <option value="Femi Omotayo">Femi omotayo</option>
       </select>
     </div>
     <div className='amount'>

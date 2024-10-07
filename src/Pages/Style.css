@@ -263,18 +263,11 @@ button{
     border: none;
   }
   
-
   .search_payment input{
     width: 90%;
     outline: none;
     border: none;
   }
-
-  /* .search_payment,.duration{
-    width: 40%;
-    margin: 0 !important;
-  } */
-
 
 
   /* media Query */

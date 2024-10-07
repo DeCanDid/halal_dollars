@@ -130,7 +130,7 @@ function FutureLogged() {
         {
   show?<div className='popwrapper' onClick={closed}>
     <div className='popInner' onClick={dontgo}>
-    <form onSubmit={formik.handleSubmit}>
+    <form className='future_form' onSubmit={formik.handleSubmit}>
     <div className='person'>
       <label>Who do you want to pay for?</label>
       <select name="selectField"
@@ -168,7 +168,7 @@ function FutureLogged() {
 {
   show2?<div className='popwrapper' onClick={closed2}>
     <div className='popInner' onClick={dontgo2}>
-    <form onSubmit={formik2.handleSubmit}>
+    <form className='future_form' onSubmit={formik2.handleSubmit}>
     <div className='person'>
       <label>Who do you want to pay for?</label>
       <select name="selectFielduno"
